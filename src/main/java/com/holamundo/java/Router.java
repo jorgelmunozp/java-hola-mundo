@@ -17,7 +17,6 @@ public class Router
     @RequestMapping("/home")
     public String home()
     {
-        // return "<link href=\"css/App.css\" rel=\"stylesheet\"><div class=\"App-container\"><img class=\"App-logo\" src=\"assets/logo.png\" alt=\"Logo\"><h1>Hola Mundo!</h1><h3>Java Spring Boot</h3></div>";
         return "home";
     }
 
