@@ -2,6 +2,9 @@ body {
     background-color: #fff;
     padding: calc(20px + 4vmin);
 }
+a {
+    text-decoration: none;
+}
 
 .App-container {
     background-color: #ddd;
