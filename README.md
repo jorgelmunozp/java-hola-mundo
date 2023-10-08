@@ -1,4 +1,4 @@
-<h1 align="center"> Casino | React App </h1>
+<h1 align="center"> Hola Mundo | Java App </h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-f1e05a">
