@@ -1,4 +1,4 @@
-package com.holamundo.javaholamundo;
+package com.holamundo.java;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

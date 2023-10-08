@@ -1,4 +1,4 @@
-package com.holamundo.javaholamundo;
+package com.holamundo.java;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
