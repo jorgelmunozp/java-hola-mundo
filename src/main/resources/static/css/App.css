@@ -13,8 +13,9 @@ body {
 a {
     color: var(--white-color);
     text-decoration: none;
-    font-size: calc(5px + 4vmin);
+    font-size: calc(5px + 3vmin);
     background-color: var(--orange-color);
+    padding: 0 10px 0 10px;
     border-radius: 50px;
 }
 
