@@ -1,15 +1,25 @@
+:root {
+    --blue-color: #1d4596;
+    --gray-color: #ddd;
+    --orange-color: #eb4e27;
+    --white-color: #fff;
+}
+
 body {
-    background-color: #fff;
+    background-color: var(--white-color);
     font-family:Arial; 
     padding: calc(20px + 4vmin);
 }
 a {
+    color: var(--white-color);
     text-decoration: none;
     font-size: calc(5px + 4vmin);
+    background-color: var(--orange-color);
+    border-radius: 50px;
 }
 
 .App-container {
-    background-color: #ddd;
+    background-color: var(--gray-color);
     border-radius: 50px;
     text-align: center;
     filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 1));
@@ -24,12 +34,12 @@ a {
     filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 1));
 }
 h1 {
-    color:#1d4596;
+    color:var(--blue-color);
     font-size: calc(20px + 6vmin);
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 h3 {
-    color:#eb4e27;
+    color:var(--orange-color);
     font-size: calc(10px + 4vmin);
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);    
 }
